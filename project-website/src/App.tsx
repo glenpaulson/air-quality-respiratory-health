@@ -9,9 +9,10 @@ import Clustering from "./pages/Clustering";
 import Pca from "./pages/Pca";
 import NaiveBayes from "./pages/NaiveBayes";
 import DecTrees from "./pages/DecTrees";
-import Svms from "./pages/Svms";
 import Regression from "./pages/Regression";
-import Nn from "./pages/Nn";
+import AdaBoost from "./pages/AdaBoost";
+import GradientBoosting from "./pages/GradientBoosting";
+import XGBoost from "./pages/XGBoost";
 
 function App() {
   return (
@@ -26,9 +27,10 @@ function App() {
             <Route path="/pca" element={<Pca />} />
             <Route path="/naive-bayes" element={<NaiveBayes />} />
             <Route path="/decision-trees" element={<DecTrees />} />
-            <Route path="/svms" element={<Svms />} />
             <Route path="/regression" element={<Regression />} />
-            <Route path="/neural-networks" element={<Nn />} />
+            <Route path="/adaboost" element={<AdaBoost />} />
+            <Route path="/gradient-boosting" element={<GradientBoosting />} />
+            <Route path="/xgboost" element={<XGBoost />} />
             <Route path="/conclusions" element={<Conclusions />} />
             <Route path="/about" element={<AboutMe />} />
           </Routes>

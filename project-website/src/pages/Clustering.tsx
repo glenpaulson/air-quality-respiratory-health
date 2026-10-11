@@ -635,7 +635,8 @@ const Clustering = () => {
                 The result runs backwards from what would be expected. And this is interesting.
               </p>
               <p>
-                This does not mean clean air is causing asthma. It means these city level averages are confounded. The
+                This does not mean clean air is causing asthma. It means a city level average mixes air quality up
+                with everything else about the city. The
                 cities in cluster 2 are mostly big, expensive coastal metros with younger
                 populations, lower adult smoking rates and better access to healthcare, and every
                 one of those pushes the respiratory disease down harder than how much the particulates in air can push it up. 
