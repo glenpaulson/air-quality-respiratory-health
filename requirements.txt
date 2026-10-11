@@ -1,0 +1,18 @@
+# Python packages needed to run everything in code/
+# install with:  pip install -r requirements.txt
+# written for Python 3.13
+
+# data collection (build_cities.py, collect_data.py, fetch_health.py)
+requests>=2.32
+
+# data handling and cleaning (all scripts)
+pandas>=2.3
+numpy>=2.0
+
+# charts and the dataframe table images (eda.py, make_snapshots.py, clustering.py, pca.py)
+matplotlib>=3.9
+seaborn>=0.13
+
+# clustering and PCA (clustering.py, pca.py)
+scikit-learn>=1.5
+scipy>=1.14
