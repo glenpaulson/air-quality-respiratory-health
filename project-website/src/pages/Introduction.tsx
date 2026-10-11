@@ -69,14 +69,18 @@ const Introduction = () => {
                 Every breath pulls in whatever happens to be floating around that day. Most of the
                 time that is harmless. On a bad day it can mean soot fine enough to slip deep into
                 the lungs, ozone cooked up by sunlight and traffic, and the sharp leftovers of
-                burning coal, gas, and diesel. Forecasters bundle all of it into one number, the Air
-                Quality Index, that runs from a calm green "Good" up to a dark red "Hazardous."
-              </p>
-              <p>
-                The stakes are not small. The World Health Organization links air pollution, indoors
-                and out, to roughly seven million early deaths a year. That puts dirty air in the
-                same company as smoking and poor diet, even though most people barely notice it until
-                the sky goes brown.
+                burning coal, gas, and diesel. The soot is the part that does the quiet damage,
+                because particles that small slide past the body's defences instead of being caught
+                in the nose and throat. Ozone is also strange, since nothing emits it directly and
+                it only appears once sunlight starts working on exhaust fumes. 
+                <br/><br/>
+                The Air Quality Index combines all of these into a single number, that runs from a calm 
+                green "Good" up to a dark red "Hazardous." This is the number most people see on weather apps. Behind
+                it sit around 6 separate pollutants, each with its own sources and its own daily
+                rhythm. The stakes are not small. The World Health Organization links air pollution,
+                indoors and out, to roughly 7 million early deaths a year. That puts dirty air in
+                the same category as smoking and poor diet, even though most people barely notice it
+                until things get really worse visibly.
               </p>
             </div>
           </div>
@@ -88,14 +92,19 @@ const Introduction = () => {
               <p>
                 Bad air does not treat everyone the same. A healthy adult might shrug off a smoky
                 afternoon while a child with asthma, an older neighbor, or someone with a weak heart
-                ends up in urgent care. Stretched over years, polluted air tracks with asthma, COPD,
-                heart disease, and shorter lives.
-              </p>
-              <p>
-                Location piles on top of that. Homes wedged next to freeways, ports, rail yards, and
-                factories sit in the thick of it, so the heaviest load tends to fall on the
-                neighborhoods with the least say in the matter. Knowing when and where the air turns
-                bad is the first real step toward fixing it.
+                ends up in urgent care. Children are hit harder than their size suggests, because
+                they breathe faster than adults and spend more of the day outside which increases the risk. Outdoor workers
+                have no real option to wait out a bad weather indoors. Stretched over years,
+                polluted air tracks with asthma, COPD, heart disease, and shorter lives. The toll is
+                not only counted in hospital visits either, since dirty air also shows up as missed
+                school days, lost shifts, and worse sleep. 
+                <br/><br/>
+                Location piles on top of that. Homes placed next to freeways, ports, rail yards, and factories sit in the worst position, 
+                so the heaviest load tends to fall on the neighborhoods with the least say in the
+                matter. Two neighborhoods a few miles apart can breathe very different air on the
+                same evening. That gap rarely shows up in a citywide average, which is part of why
+                it goes unnoticed. Knowing when and where the air turns bad is the first real step
+                toward fixing it.
               </p>
             </div>
           </div>
@@ -104,43 +113,46 @@ const Introduction = () => {
 
       {/* What shapes it + what's been done + what this project explores (one section) */}
       <section className="bg-[#EBEBEB] px-6 py-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="mb-12 border-b border-gray-300 pb-6">
             <h2 className="text-4xl md:text-6xl font-medium tracking-tight">Context &amp; Approach</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16 text-gray-600 text-justify hyphens-auto leading-relaxed">
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">What Shapes Air Quality</h3>
-              <p>
-                Air quality lurches around from one day to the next, and the weather is usually
-                pulling the strings. A cold, still winter morning can pin pollution to the ground for
-                days under a lid of warmer air. A hot, sunny afternoon brews ozone. A stiff wind
-                either scrubs a city clean or hauls wildfire smoke in from a state away, and a solid
-                rain rinses the sky. Terrain adds its own twist, which is why a mountain valley and a
-                coastal city can breathe nothing alike on the very same day.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">What Has Been Done</h3>
-              <p>
-                None of this is uncharted. Agencies run monitoring stations, post live readings, and
-                sound the alarm when the air turns dangerous, while health departments keep tabs on
-                who ends up sick. There is no shortage of studies tying pollution to disease. What is
-                harder to come by is a single place that sets the readings, the weather, and the
-                health numbers next to each other and lets the patterns show themselves.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">What This Project Explores</h3>
-              <p>
-                That is the gap this project works at. It gathers a full year of daily air and
-                weather readings for fifty major cities and lines them up against local rates of
-                asthma and COPD. The goal is easy to say and harder to answer: pin down where the air
-                is worst, when it slips, and whether the ordinary conditions of a given day can give
-                any warning before it does.
-              </p>
-            </div>
+          <div className="text-gray-600 text-justify hyphens-auto leading-relaxed text-lg">
+            <p>
+              <strong className="text-gray-900">What shapes air quality.</strong> Air quality lurches
+              around from one day to the next, and the weather is usually pulling the strings. A
+              cold, still winter morning can pin pollution to the ground for days under a lid of
+              warmer air. A hot, sunny afternoon brews ozone. A stiff wind either scrubs a city clean
+              or hauls wildfire smoke in from a state away, and a solid rain rinses the sky. Terrain
+              adds its own twist, which is why a mountain valley and a coastal city can breathe
+              nothing alike on the very same day.{" "}
+              <strong className="text-gray-900">What has been done.</strong> None of this is
+              uncharted. Agencies run monitoring stations, post live readings, and sound the alarm
+              when the air turns dangerous, while health departments keep tabs on who ends up sick.
+              There is no shortage of studies tying pollution to disease. What is harder to come by
+              is a single place that sets the readings, the weather, and the health numbers next to
+              each other and lets the patterns show themselves.{" "}
+              <strong className="text-gray-900">What this project explores.</strong> That is the gap
+              this project works at. It gathers a full year of daily air and weather readings for
+              fifty major cities and lines them up against local rates of asthma and COPD. The goal
+              is easy to say and harder to answer: pin down where the air is worst, when it slips,
+              and whether the ordinary conditions of a given day can give any warning before it does.
+            </p>
           </div>
+
+          <figure className="mt-12">
+            <img
+              src={asset("images/eda/03_pm25_timeseries.png")}
+              alt="Daily average fine particle pollution across all fifty cities over a full year"
+              className="w-full rounded-2xl shadow-lg border border-gray-200 bg-white"
+            />
+            <figcaption className="text-sm text-gray-500 mt-3">
+              Fine particle pollution averaged across all fifty cities, day by day for a year. The
+              slow rise and fall is the seasons at work, while the sharp spikes are the episodes,
+              the wildfire smoke and stagnant cold that push whole regions over the line at
+              once.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
