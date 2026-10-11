@@ -40,7 +40,7 @@ const Figure = ({ file, title, caption, onZoom }: FigureProps) => {
       <img
         src={src}
         alt={title}
-        onClick={() => onZoom({ src, caption: `${title} — ${caption}` })}
+        onClick={() => onZoom({ src, caption: `${title}. ${caption}` })}
         className="w-full cursor-zoom-in bg-white"
       />
       <figcaption className="px-6 py-5 border-t border-gray-100">
