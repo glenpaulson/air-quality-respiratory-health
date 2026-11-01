@@ -1,0 +1,11 @@
+,importance
+is_Summer,0.0
+is_Winter,0.002
+is_Spring,0.0156
+precip,0.0643
+temp_range,0.0651
+is_Fall,0.0927
+latitude,0.1218
+longitude,0.1957
+wind,0.206
+temp_mean,0.2369

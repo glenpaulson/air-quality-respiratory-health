@@ -1,0 +1,22 @@
+|--- wind <= 15.95
+|   |--- latitude <= 32.47
+|   |   |--- longitude <= -108.71
+|   |   |   |--- class: Good
+|   |   |--- longitude >  -108.71
+|   |   |   |--- class: Moderate
+|   |--- latitude >  32.47
+|   |   |--- temp_mean <= 22.95
+|   |   |   |--- class: Moderate
+|   |   |--- temp_mean >  22.95
+|   |   |   |--- class: Moderate
+|--- wind >  15.95
+|   |--- is_Fall <= 0.50
+|   |   |--- temp_mean <= 13.35
+|   |   |   |--- class: Moderate
+|   |   |--- temp_mean >  13.35
+|   |   |   |--- class: Moderate
+|   |--- is_Fall >  0.50
+|   |   |--- temp_mean <= 15.85
+|   |   |   |--- class: Good
+|   |   |--- temp_mean >  15.85
+|   |   |   |--- class: Moderate

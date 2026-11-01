@@ -1,0 +1,6 @@
+tree,criterion,max_depth,min_samples_leaf,actual_depth,leaves,train_accuracy,test_accuracy
+"Tree 1: shallow, GINI",gini,3,1,3,8,0.6554,0.6607
+Tree 2: entropy,entropy,4,50,4,16,0.6596,0.6639
+"Tree 3: entropy, classes balanced",entropy,4,30,4,16,0.4715,0.4776
+"Tree 4: tuned depth, GINI",gini,8,20,8,180,0.7151,0.6918
+Tree 5: no limits at all,gini,none,1,33,3754,1.0,0.629

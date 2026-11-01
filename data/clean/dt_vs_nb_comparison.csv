@@ -1,0 +1,9 @@
+model,accuracy
+always answer Moderate,0.6306
+Multinomial NB (alpha=1),0.65
+Bernoulli NB (alpha=1),0.6369
+"Tree 1: shallow, GINI",0.660655737704918
+Tree 2: entropy,0.6639344262295082
+"Tree 3: entropy, classes balanced",0.47759562841530057
+"Tree 4: tuned depth, GINI",0.6918032786885245
+Tree 5: no limits at all,0.6289617486338798
