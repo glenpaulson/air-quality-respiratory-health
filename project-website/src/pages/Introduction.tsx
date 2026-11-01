@@ -140,6 +140,42 @@ const Introduction = () => {
             </p>
           </div>
 
+          <div className="text-gray-600 text-justify hyphens-auto leading-relaxed text-lg mt-8">
+            <p>
+              <strong className="text-gray-900">Where the project has got to.</strong> The work so far has gone looking for the structure in the data before trying to predict
+                anything with it. Clustering sorted the fifty cities into groups without
+                ever being told what a clean or a dirty city looks like, and the groups it
+                came up with lined up with real geography, with a western cluster carrying
+                a particle problem and a northern one that mostly does not. PCA then
+                showed that the nine daily measurements are not really nine separate things. A little
+                over forty percent of everything that varies in this dataset is one single
+                pattern, which is everything coming out of an engine or a furnace rising
+                together on cold, still days, with ozone and wind sitting on the other
+                side of it. Rain turned out to be almost independent of everything else,
+                so a wet day is its own kind of day. None of those methods were shown the air
+                quality labels, and yet when all 18,300 days get projectd onto two axes the official
+                categories still sort themselves into a gradient across the frame. That was the
+                encouraging part, because it meant there was some real structure there to
+                work with.
+            </p>
+            <p className="mt-6">
+              <strong className="text-gray-900">What the supervised work is for.</strong> The next question is whether that structure is 
+                strong enough to be useful for anything,
+                which is where the labels finally get used. The Naive Bayes and Decision
+                Trees tabs both take the same question, deliberately made hard: given only
+                the weather for a day and where the city sits, and none of the pollutant
+                readings the air quality rating is worked out from, can the rating be
+                called ahead of time? The short answer is partly. A model that always answers Moderate
+                is already right 63 percent of the time, Naive Bayes gets to 65.0 and a
+                tuned decision tree reaches 69.2. So that is a real improvement and a
+                modest one at the same time, and the more interesting result is sitting
+                underneath it, because almost every model finds the rare bad days the
+                hardest, and the model with the best accuracy is not the one worth picking if the
+                point is to warn somebody. Those two tabs go into why that happens, and what it would
+                take to do better.
+            </p>
+          </div>
+
           <figure className="mt-12">
             <img
               src={asset("images/eda/03_pm25_timeseries.png")}
