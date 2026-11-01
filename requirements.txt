@@ -9,10 +9,13 @@ requests>=2.32
 pandas>=2.3
 numpy>=2.0
 
-# charts and the dataframe table images (eda.py, make_snapshots.py, clustering.py, pca.py)
+# charts and the dataframe table images (eda.py, make_snapshots.py, clustering.py, pca.py,
+# naive_bayes.py, decision_trees.py)
 matplotlib>=3.9
 seaborn>=0.13
 
 # clustering and PCA (clustering.py, pca.py)
+# supervised models: the train/test split, Naive Bayes and Decision Trees
+# (supervised_prep.py, naive_bayes.py, decision_trees.py)
 scikit-learn>=1.5
 scipy>=1.14
