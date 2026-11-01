@@ -1,0 +1,4 @@
+class,train_count,train_percent,test_count,test_percent
+Good,4523,30.89,1131,30.9
+Moderate,9233,63.07,2308,63.06
+Unhealthy,884,6.04,221,6.04
