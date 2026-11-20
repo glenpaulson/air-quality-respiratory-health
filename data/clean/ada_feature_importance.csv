@@ -1,0 +1,11 @@
+feature,adaboost_stumps,adaboost_best,single_tree
+temp_mean,0.2506,0.255,0.2301
+temp_range,0.0402,0.0842,0.09
+precip,0.1047,0.0783,0.0636
+wind,0.193,0.1958,0.1975
+latitude,0.2454,0.1981,0.1246
+longitude,0.138,0.1463,0.1878
+is_Winter,0.0046,0.0048,0.009
+is_Spring,0.0054,0.0113,0.0175
+is_Summer,0.0,0.0013,0.0041
+is_Fall,0.0179,0.025,0.0758

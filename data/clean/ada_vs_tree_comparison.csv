@@ -1,0 +1,9 @@
+model,accuracy,family
+always answer Moderate,0.6306,baseline
+Multinomial NB (alpha=1),0.65,part 3
+"Tree 1: shallow, GINI",0.6607,part 3
+"Tree 4: tuned depth, GINI",0.6918,part 3
+"Logistic regression, 3 class",0.6582,regression
+"Single tree, depth 10 by CV",0.6795,this tab
+"AdaBoost, stumps (478 rounds, lr 1)",0.6746,this tab
+"AdaBoost, depth 3 trees (470 rounds, lr 0.25)",0.6872,this tab
