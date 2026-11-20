@@ -10,12 +10,14 @@ pandas>=2.3
 numpy>=2.0
 
 # charts and the dataframe table images (eda.py, make_snapshots.py, clustering.py, pca.py,
-# naive_bayes.py, decision_trees.py)
+# naive_bayes.py, decision_trees.py, regression.py, adaboost.py)
 matplotlib>=3.9
 seaborn>=0.13
 
 # clustering and PCA (clustering.py, pca.py)
-# supervised models: the train/test split, Naive Bayes and Decision Trees
-# (supervised_prep.py, naive_bayes.py, decision_trees.py)
+# supervised models: the train/test split, Naive Bayes, Decision Trees, linear and logistic
+# regression, and AdaBoost (supervised_prep.py, naive_bayes.py, decision_trees.py,
+# regression.py, adaboost.py). joblib, used by adaboost.py to tune in parallel, comes with it.
+# AdaBoostClassifier(estimator=...) needs scikit-learn 1.2 or newer.
 scikit-learn>=1.5
 scipy>=1.14
