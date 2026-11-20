@@ -1,0 +1,10 @@
+feature,coefficient_raw_units,training_sd,effect_of_one_sd
+temp_mean,0.6918,10.0023,6.9194
+temp_range,0.6765,3.9363,2.663
+precip,-0.1158,6.7293,-0.779
+wind,-0.8315,5.979,-4.9718
+latitude,0.5774,4.5636,2.6349
+longitude,0.1457,15.2486,2.2211
+is_Spring,-2.8573,0.4333,-2.8573
+is_Summer,-4.7579,0.4336,-4.7579
+is_Fall,-8.4215,0.4341,-8.4215

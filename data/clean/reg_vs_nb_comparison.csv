@@ -1,0 +1,11 @@
+model,accuracy,recall_Good,recall_Not_Good,question
+always answer Not Good,0.691,0.0,1.0,Good vs Not Good
+Multinomial NB (alpha=1),0.7041,0.3722,0.8525,Good vs Not Good
+Bernoulli NB (alpha=1),0.703,0.4492,0.8165,Good vs Not Good
+"Logistic regression, C = 0.1",0.718,0.2564,0.9245,Good vs Not Good
+"Logistic regression, balanced, C = 0.01",0.6514,0.6216,0.6647,Good vs Not Good
+always answer Moderate,0.6306,,,Good / Moderate / Unhealthy
+Multinomial NB (alpha=1),0.65,,,Good / Moderate / Unhealthy
+Bernoulli NB (alpha=1),0.6369,,,Good / Moderate / Unhealthy
+"Tree 4: tuned depth, GINI",0.6918,,,Good / Moderate / Unhealthy
+"Logistic regression, 3 class",0.6582,,,Good / Moderate / Unhealthy

@@ -1,0 +1,4 @@
+model,test_rmse,test_mae,test_r2
+always guess the training mean,22.1532,15.9533,-0.0001
+plain linear: weather + place + season,20.1272,14.6324,0.1744
+curved linear: all nine + squares and products,18.9427,13.54,0.2687
