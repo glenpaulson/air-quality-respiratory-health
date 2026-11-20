@@ -174,6 +174,28 @@ const Introduction = () => {
                 point is to warn somebody. Those two tabs go into why that happens, and what it would
                 take to do better.
             </p>
+            <p className="mt-6">
+              <strong className="text-gray-900">Lines, probabilities and boosting.</strong> The Regression
+                and AdaBoost tabs. Linear regression drops the categories altogether and tries to predict the AQI number itself and that turns out to be
+                the most direct measure yet on how much the weather can tell about the air. A straight line
+                through the weather, the season and the location accounts for about 17 percent of the day to
+                day variation and letting that line bend and combine columns raises it to about 27 percent.
+                which means most of what makes one day dirtier than another is simply not in these columns.
+                But whatever the line does say is pretty clear. Every extra km/h of wind takes almost a point off the
+                predicted AQI and every extra degree of heat adds about 0.7 and winter carries something extra
+                that the temperature alone does not explain. Logistic regression asks the yes or no version as in
+                will the air be Good or not and agrees with the linear model on the direction of every single
+                column. Which makes those effects much harder to just throw away as chance. AdaBoost then goes back
+                to building hundreds of tiny trees in a row with each one told to focus on the days the
+                earlier ones got wrong. That made it the most accurate model so far once every setting was
+                chosen fairly by cross validation. But only by under a point over a single well tuned tree. The
+                better result is that a model made only of one question stumps did worse than a single
+                tree because stumps cannot see conditions in combination and hot, calm and dry together is
+                exactly what a bad air day looks like. Even with all its focus on the hard cases AdaBoost still
+                let almost every Unhealthy day through as Moderate which is the clearest sign yet that the
+                worst days are driven by thigs like smoke and stagnant spells that ordinary weather columns
+                cannot see coming.
+            </p>
           </div>
 
           <figure className="mt-12">
