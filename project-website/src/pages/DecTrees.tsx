@@ -650,6 +650,15 @@ const DecTrees = () => {
                 which is below the 63.1 percent that comes from not building a model at all. That gap
                 between 100 and 62.9 is probably the most useful thing on this page.
               </p>
+              <p>
+                One caveat about this sweep. The depth of 8 for Tree 4 was chosen by keeping whichever
+                depth scored best on the test set, which means the test set had a hand in choosing the
+                model it was then used to score, so the 69.2 percent is slightly flattering. The better
+                way is to choose the depth with cross validation inside the training set and only touch
+                the test set once at the end. That is done on the AdaBoost tab, where the same tree with
+                its depth chosen by 5 fold cross validation comes out at depth 10 and scores 68.0
+                percent which is about a point lower.
+              </p>
             </div>
             <Figure
               file="images/decision_trees/06_depth_sweep.png"
